@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10621" started-at="2019-09-26T03:45:47Z" finished-at="2019-09-26T03:45:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10621" started-at="2019-09-26T03:45:47Z" finished-at="2019-09-26T03:45:58Z">
+      <class name="test.test1_googleSearch">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:test.test1_googleSearch@6a4f787b]" name="SetUpTest" is-config="true" duration-ms="3562" started-at="2019-09-26T03:45:47Z" finished-at="2019-09-26T03:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.test1_googleSearch@6a4f787b]" name="googleSearch" duration-ms="3716" started-at="2019-09-26T03:45:51Z" finished-at="2019-09-26T03:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="f1()[pri:1, instance:test.test1_googleSearch@6a4f787b]" name="f1" duration-ms="1234" started-at="2019-09-26T03:45:54Z" finished-at="2019-09-26T03:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.test1_googleSearch@6a4f787b]" name="tearDownTest" is-config="true" duration-ms="2085" started-at="2019-09-26T03:45:56Z" finished-at="2019-09-26T03:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.test1_googleSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
