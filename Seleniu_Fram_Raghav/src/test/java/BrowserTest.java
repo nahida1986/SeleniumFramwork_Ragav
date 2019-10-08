@@ -10,6 +10,9 @@ public class BrowserTest {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
         driver.get("https://www.seleniumhq.org");
+        driver.manage().window().maximize();
+       driver.getTitle();
+       System.out.println("my Title " +driver.getTitle() );
 		
 	}
 
