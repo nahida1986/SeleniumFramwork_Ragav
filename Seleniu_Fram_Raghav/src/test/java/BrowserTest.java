@@ -11,6 +11,7 @@ public class BrowserTest {
 		WebDriver driver = new ChromeDriver();
         driver.get("https://www.seleniumhq.org");
         driver.manage().window().maximize();
+       //edfljeakl;fne:
 		
 	}
 
